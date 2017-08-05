@@ -62,6 +62,8 @@ public class DBConnectionManage{
 	public static void main(String [] args) throws Exception{
 		getConnection();
 		getConnection();
+		System.out.println(connection);
 		close();
+		System.out.println(connection);
 	}
 }

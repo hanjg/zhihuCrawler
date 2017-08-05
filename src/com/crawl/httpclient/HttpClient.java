@@ -23,6 +23,9 @@ public abstract class HttpClient {
     private Logger logger = SimpleLogger.getSimpleLogger(HttpClient.class);
     
     protected CloseableHttpClient closeableHttpClient;
+    /**
+     * 存储在不同http请求之间传递的信息
+     */
     protected HttpClientContext httpClientContext;
     private CloseableHttpResponse closeableHttpResponse;
     
