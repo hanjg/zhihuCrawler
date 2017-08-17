@@ -61,6 +61,7 @@ public class ZhiHuUserInfoParser extends UserInfoParser{
     	setUserByReflect(user, "articlesCount", userInfo, "$.articlesCount");
     	setUserByReflect(user, "followingCount", userInfo, "$.followingCount");
     	setUserByReflect(user, "followerCount", userInfo, "$.followerCount");
+    	setUserByReflect(user, "school", userInfo, "$.educations[0].school.name");
     	
     	return user;
     }

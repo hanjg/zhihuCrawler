@@ -25,7 +25,7 @@ public class ModelLogin {
     /**
      * 知乎首页
      */
-    final public static String HOME_PAGE_URL = "https://www.zhihu.com";
+	final public static String HOME_PAGE_URL = "https://www.zhihu.com";
     /**
      * 邮箱登陆地址
      */
